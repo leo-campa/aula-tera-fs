@@ -1,0 +1,13 @@
+.beer-detail-container {
+  display: flex;
+  justify-content: space-around;
+
+  &>.-image{
+      height: 100%;
+      width: 100px;
+  }
+
+  &>.-content{
+      width: 400px;
+  }
+}
